@@ -14,4 +14,6 @@
       dates = "weekly";
     };
   };
+
+  system.stateVersion = "25.05";
 }

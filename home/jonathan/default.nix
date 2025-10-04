@@ -1,5 +1,6 @@
 {
   imports = [
+    ./common/core/
     ./editors
     ./programs
     ./terminal
@@ -10,6 +11,6 @@
   home = {
     username = "jonathan";
     homeDirectory = "/home/jonathan";
-    stateVersion = "24.11";
+    stateVersion = "25.05";
   };
 }

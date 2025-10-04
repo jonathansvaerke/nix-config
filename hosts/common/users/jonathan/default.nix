@@ -5,7 +5,7 @@
     inputs.home-manager.nixosModules.home-manager
   ];
 
-  users.mutableUsers = false;
+  #users.mutableUsers = false;
   users.users.jonathan = {
     isNormalUser = true;
     description = "Jonathan Svaerke";
