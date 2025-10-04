@@ -1,0 +1,63 @@
+{
+  description = "My NixOS configuration";
+
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
+    nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
+
+    home-manager = {
+      url = "github:nix-community/home-manager/release-25.05";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    hardware = {
+      url = "github:nixos/nixos-hardware";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    sops-nix = {
+      url = "github:mic92/sops-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+  };
+
+  outputs =
+    {
+      self,
+      nixpkgs,
+      home-manager,
+      ...
+    }@inputs:
+    let
+      system = "x86_64-linux";
+      pkgs = nixpkgs.legacyPackages.${system};
+      lib = nixpkgs.lib // home-manager.lib;
+    in
+    {
+      inherit lib;
+      nixosConfigurations = {
+
+        # DUTZO Esport Fire (Intel i5-12400F, Nvidia RTX 4060)
+        turing = lib.nixosSystem {
+          system = "x86_64-linux";
+          modules = [
+            ./hosts/turing
+          ];
+          specialArgs = {
+            inherit inputs;
+          };
+        };
+
+        # Acer Aspire 3 15 A315-24P-R7VH
+        ritchie = lib.nixosSystem {
+          system = "x86_64-linux";
+          modules = [
+            ./hosts/ritchie
+          ];
+          specialArgs = {
+            inherit inputs;
+          };
+        };
+      };
+    };
+}
