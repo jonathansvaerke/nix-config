@@ -1,5 +1,6 @@
 {
   imports = [
+    ./lsp
     ./neovim
     ./vscodium
   ];

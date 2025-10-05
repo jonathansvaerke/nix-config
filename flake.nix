@@ -36,6 +36,9 @@
     in
     {
       inherit lib;
+
+      devShells.${system} = import ./dev-shells.nix { inherit pkgs; };
+
       nixosConfigurations = {
 
         # DUTZO Esport Fire (Intel i5-12400F, Nvidia RTX 4060)
