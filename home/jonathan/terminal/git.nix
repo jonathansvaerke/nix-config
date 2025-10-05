@@ -2,11 +2,14 @@
 {
   programs.git = {
     enable = true;
-    userName = builtins.replaceStrings [ "\n" ] [ "" ] (
-      builtins.readFile config.sops.secrets."git/username".path
-    );
-    userEmail = builtins.replaceStrings [ "\n" ] [ "" ] (
-      builtins.readFile config.sops.secrets."git/useremail".path
-    );
+    includes = [ { path = config.sops.templates."git-secrets".path; } ];
+  };
+
+  sops.templates."git-secrets" = {
+    content = ''
+      [user]
+        name = ${config.sops.placeholder."git/userName"}
+        email = ${config.sops.placeholder."git/userEmail"}
+    '';
   };
 }

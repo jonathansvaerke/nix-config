@@ -1,6 +1,6 @@
 {
   imports = [
-    ./common/core/
+    ./common/core
     ./editors
     ./programs
     ./terminal

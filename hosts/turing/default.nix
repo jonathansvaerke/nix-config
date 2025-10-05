@@ -13,4 +13,9 @@
   networking = {
     hostName = "turing";
   };
+
+  hardware.nvidia = {
+    open = true;
+    prime.offload.enable = false;
+  };
 }

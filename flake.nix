@@ -25,6 +25,8 @@
       self,
       nixpkgs,
       home-manager,
+      hardware,
+      sops-nix,
       ...
     }@inputs:
     let
@@ -38,23 +40,23 @@
 
         # DUTZO Esport Fire (Intel i5-12400F, Nvidia RTX 4060)
         turing = lib.nixosSystem {
-          system = "x86_64-linux";
+          system = system;
           modules = [
             ./hosts/turing
           ];
           specialArgs = {
-            inherit inputs;
+            inherit inputs self;
           };
         };
 
         # Acer Aspire 3 15 A315-24P-R7VH
         ritchie = lib.nixosSystem {
-          system = "x86_64-linux";
+          system = system;
           modules = [
             ./hosts/ritchie
           ];
           specialArgs = {
-            inherit inputs;
+            inherit inputs self;
           };
         };
       };
