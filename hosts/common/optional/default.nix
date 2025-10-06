@@ -1,6 +1,6 @@
 {
   imports = [
-    ./direnv.nix
+    #./direnv.nix
     ./fonts.nix
     ./gdm.nix
     ./gnome.nix

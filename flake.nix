@@ -37,7 +37,7 @@
     {
       inherit lib;
 
-      devShells.${system} = import ./dev-shells.nix { inherit pkgs; };
+      #devShells.${system} = import ./dev-shells.nix { inherit pkgs; };
 
       nixosConfigurations = {
 
