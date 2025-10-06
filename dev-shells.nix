@@ -2,6 +2,7 @@
 let
   pythonWithPackages = pkgs.python313.withPackages (
     pythonPackages: with pythonPackages; [
+      ipykernel
       matplotlib
       numpy
       pandas
