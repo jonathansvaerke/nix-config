@@ -23,8 +23,9 @@ in
     ];
   };
 
-  zig = pkgs.mkShell { };
-  buildInputs = with pkgs; [
-    zig
-  ];
+  zig = pkgs.mkShell {
+    buildInputs = with pkgs; [
+      zig
+    ];
+  };
 }
