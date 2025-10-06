@@ -9,5 +9,6 @@
     bitwarden-desktop
     discord
     geogebra6
+    vlc
   ];
 }

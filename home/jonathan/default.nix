@@ -2,9 +2,6 @@
   imports = [
     ./common/core
     ./common/optional
-    ./editors
-    ./programs
-    ./terminal
   ];
 
   programs.home-manager.enable = true;

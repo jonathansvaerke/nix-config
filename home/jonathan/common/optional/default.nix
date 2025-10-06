@@ -1,5 +1,7 @@
 {
   imports = [
-    #./direnv.nix
+    ./apps
+    ./development
+    ./terminal
   ];
 }
