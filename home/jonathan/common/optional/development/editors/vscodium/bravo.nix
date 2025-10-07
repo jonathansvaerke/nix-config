@@ -13,6 +13,8 @@
       ms-toolsai.vscode-jupyter-cell-tags
       ms-toolsai.vscode-jupyter-slideshow
 
+      charliermarsh.ruff
+
       vscode-icons-team.vscode-icons
     ];
     userSettings = {
