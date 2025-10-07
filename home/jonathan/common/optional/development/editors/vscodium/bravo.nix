@@ -32,6 +32,9 @@
 
       "explorer.confirmDelete" = false;
 
+      "python.languageServer" = "Pylance";
+      "python.analysis.languageServerMode" = "full";
+
       "vsicons.dontShowNewVersionMessage" = true;
 
       "workbench.colorTheme" = "Monokai";
