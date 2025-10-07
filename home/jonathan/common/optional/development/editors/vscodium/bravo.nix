@@ -23,6 +23,7 @@
       "editor.autoClosingQuotes" = "always";
       "editor.autoIndent" = "full";
       "editor.bracketPairColorization.enabled" = true;
+      "editor.defaultFormatter" = "charliermarsh.ruff";
       "editor.fontSize" = 16;
       "editor.formatOnSave" = true;
       "editor.suggestOnTriggerCharacters" = true;
