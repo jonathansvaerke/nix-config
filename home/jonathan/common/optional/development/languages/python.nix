@@ -9,11 +9,13 @@
         notebook
         numpy
         pandas
+        pandoc
         pip
         scipy
         sympy
       ]
     ))
+    pandoc
     ruff
   ];
 }
