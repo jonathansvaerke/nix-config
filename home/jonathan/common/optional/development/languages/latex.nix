@@ -1,6 +1,6 @@
 { pkgs, ... }:
 {
   home.packages = with pkgs; [
-    texlive.combined.scheme-medium
+    texlive.combined.scheme-full
   ];
 }
