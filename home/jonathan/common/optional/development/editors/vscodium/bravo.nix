@@ -29,7 +29,7 @@
       "editor.fontSize" = 16;
       "editor.formatOnSave" = true;
       "editor.suggestOnTriggerCharacters" = true;
-      "editor.tabSize" = 2;
+      "editor.tabSize" = 4;
       "editor.wordWrap" = "off";
 
       "explorer.confirmDelete" = false;
