@@ -17,6 +17,9 @@
       keyFile = "/home/jonathan/.config/sops/age/keys.txt";
     };
     secrets = {
+      "root-password" = {
+        neededForUsers = true;
+      };
       "jonathan-password" = {
         neededForUsers = true;
       };
