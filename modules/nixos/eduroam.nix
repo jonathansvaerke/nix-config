@@ -34,7 +34,7 @@
   };
 
   environment.etc."NetworkManager/system-connections/eduroam.nmconnection" = {
-    source = config.sops."eduroam-certificate".path;
+    source = config.sops.templates."eduroam-certificate".path;
     mode = "0600";
   };
 }
