@@ -5,9 +5,10 @@
     inputs.hardware.nixosModules.common-gpu-nvidia
 
     ../common/core
-    ../common/users/jonathan
-
     ../common/optional
+
+    ../common/users/jonathan
+    ../common/users/root
   ];
 
   networking = {
