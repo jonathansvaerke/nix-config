@@ -12,7 +12,7 @@
   sops = {
     defaultSopsFile = ../../../secrets.yaml;
     defaultSopsFormat = "yaml";
-    validateSopsFiles = false;
+    validateSopsFiles = true;
     age = {
       keyFile = "/home/jonathan/.config/sops/age/keys.txt";
     };
