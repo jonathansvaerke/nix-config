@@ -1,5 +1,5 @@
 {
-  programs.firefox = {
+  programs.zsh = {
     enable = true;
   };
 }
