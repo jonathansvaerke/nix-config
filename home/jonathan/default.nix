@@ -4,6 +4,7 @@
     ./apps
     ./development
 
+    ./editors/jetbrains
     ./editors/neovim
     ./editors/vscodium
 
