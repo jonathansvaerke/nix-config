@@ -5,7 +5,7 @@
     ./development
 
     ./editors/jetbrains
-    ./editors/neovim
+    #./editors/neovim
     ./editors/vscodium
 
     ./shell

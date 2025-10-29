@@ -14,5 +14,6 @@
 
     vivaldi
     vlc
+    zotero
   ];
 }
