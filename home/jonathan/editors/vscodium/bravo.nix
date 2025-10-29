@@ -36,6 +36,8 @@
     "python.languageServer" = "Pylance";
     "python.analysis.languageServerMode" = "full";
 
+    "ruff.format.args" = [ "--config=format.quote-style='single'" ];
+
     "vsicons.dontShowNewVersionMessage" = true;
 
     "workbench.colorTheme" = "Monokai";
