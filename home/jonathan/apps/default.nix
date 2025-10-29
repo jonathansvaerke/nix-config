@@ -12,8 +12,6 @@
     hunspellDicts.en_US
     hunspellDicts.da_DK
 
-    protonmail-desktop
-    vivaldi
     vlc
     zotero
   ];
