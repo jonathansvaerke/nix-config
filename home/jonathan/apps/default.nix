@@ -5,6 +5,7 @@
     discord
     firefox
     geogebra6
+    nautilus
 
     # LibreOffice:
     libreoffice-qt
