@@ -10,5 +10,6 @@
     bat
     fastfetch
     tree
+    unzip
   ];
 }
