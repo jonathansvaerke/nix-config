@@ -3,6 +3,7 @@
   imports = [
     ./direnv.nix
     ./git.nix
+    ./rclone.nix
     ./sops.nix
   ];
 
