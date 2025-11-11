@@ -2,6 +2,13 @@
 {
   programs.git = {
     enable = true;
+    aliases = {
+      c = "commit";
+      cm = "commit -m";
+      co = "checkout";
+      del = "branch -D";
+      s = "status";
+    };
     includes = [ { path = config.sops.templates."git-secrets".path; } ];
   };
 
@@ -10,13 +17,6 @@
       [user]
         name = ${config.sops.placeholder."git/userName"}
         email = ${config.sops.placeholder."git/userEmail"}
-      [alias]
-        br = branch
-        ci = commit
-        co = checkout
-        st = status
-
-        cm = commit -m
     '';
   };
 }
