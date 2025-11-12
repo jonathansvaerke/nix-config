@@ -30,13 +30,10 @@
       self,
       nixpkgs,
       home-manager,
-      hardware,
-      sops-nix,
       ...
     }@inputs:
     let
       system = "x86_64-linux";
-      pkgs = nixpkgs.legacyPackages.${system};
       lib = nixpkgs.lib // home-manager.lib;
     in
     {
