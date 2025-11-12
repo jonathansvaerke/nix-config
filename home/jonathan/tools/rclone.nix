@@ -5,13 +5,13 @@
     package = pkgs.rclone;
   };
 
-  home.file.".config/rclone/rclone.conf" = {
-    source = config.sops.templates."at-onedrive".path;
-  };
+  #home.file.".config/rclone/rclone.conf" = {
+  #source = config.sops.templates."at-onedrive".path;
+  #};
 
-  sops.templates."at-onedrive" = {
-    content = ''
+  #sops.templates."at-onedrive" = {
+  #content = ''
 
-    '';
-  };
+  #'';
+  #};
 }
