@@ -7,5 +7,6 @@
     #./openssh.nix
     ./sops.nix
     ./systemd-boot.nix
+    ./zsh.nix
   ];
 }

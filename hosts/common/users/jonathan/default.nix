@@ -1,4 +1,9 @@
-{ config, inputs, ... }:
+{
+  config,
+  inputs,
+  pkgs,
+  ...
+}:
 {
 
   imports = [
@@ -10,6 +15,7 @@
     isNormalUser = true;
     description = "Jonathan Svaerke";
     home = "/home/jonathan";
+    shell = pkgs.zsh;
     hashedPasswordFile = config.sops.secrets."jonathan-password".path;
     extraGroups = [
       "networkmanager"
