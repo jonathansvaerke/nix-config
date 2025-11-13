@@ -5,6 +5,7 @@
     ./git.nix
     ./rclone.nix
     ./sops.nix
+    ./winboat.nix
   ];
 
   home.packages = with pkgs; [
