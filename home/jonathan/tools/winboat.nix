@@ -1,6 +1,6 @@
-{ pkgs, ... }:
+{ pkgs, inputs, ... }:
 {
-  home.packages = with pkgs; [
-    winboat
+  home.packages = [
+    inputs.nixpkgs-unstable.legacyPackages.${pkgs.system}.winboat
   ];
 }

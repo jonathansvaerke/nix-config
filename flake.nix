@@ -2,11 +2,11 @@
   description = "My NixOS configuration";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-25.05";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
+    nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
 
     home-manager = {
-      url = "github:nix-community/home-manager/";
+      url = "github:nix-community/home-manager/release-25.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -33,7 +33,6 @@
       ...
     }@inputs:
     let
-      system = "x86_64-linux";
       lib = nixpkgs.lib // home-manager.lib;
     in
     {
@@ -45,7 +44,7 @@
 
         # DUTZO Esport Fire (Intel i5-12400F, Nvidia RTX 4060)
         turing = lib.nixosSystem {
-          system = system;
+          system = "x86_64-linux";
           modules = [
             ./hosts/turing
           ];
@@ -56,7 +55,7 @@
 
         # Acer Aspire 3 15 A315-24P-R7VH
         ritchie = lib.nixosSystem {
-          system = system;
+          system = "x86_64-linux";
           modules = [
             ./hosts/ritchie
           ];
