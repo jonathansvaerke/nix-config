@@ -30,5 +30,6 @@
     "workbench.sideBar.location" = "right";
     "workbench.startupEditor" = "none";
     "workbench.statusBar.visible" = true;
+    "zig.zls.enabled" = true;
   };
 }
