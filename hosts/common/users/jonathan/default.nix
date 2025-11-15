@@ -27,7 +27,10 @@
   home-manager = {
     useGlobalPkgs = true;
     useUserPackages = true;
-    extraSpecialArgs = { inherit inputs; };
+    extraSpecialArgs = {
+      inherit inputs;
+      systemConfig = config;
+    };
     users.jonathan = import ../../../../home/jonathan;
   };
 }
