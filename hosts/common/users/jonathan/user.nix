@@ -13,6 +13,7 @@
     ../../optional/desktop/gnome.nix
 
     ../../optional/development/python.nix
+    ../../optional/development/rust.nix
     ../../optional/development/typst.nix
     ../../optional/development/zig.nix
 
