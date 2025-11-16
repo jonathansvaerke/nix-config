@@ -38,15 +38,13 @@
     {
       inherit lib;
 
-      #devShells.${system} = import ./dev-shells.nix { inherit pkgs; };
-
       nixosConfigurations = {
 
-        # DUTZO Esport Fire (Intel i5-12400F, Nvidia RTX 4060)
+        # DUTZO Esport Fire (Intel i5-12400F, Nvidia RTX 4060, 32 GB RAM)
         turing = lib.nixosSystem {
           system = "x86_64-linux";
           modules = [
-            ./hosts/turing
+            ./hosts/turing/configuration.nix
           ];
           specialArgs = {
             inherit inputs self;
@@ -57,7 +55,7 @@
         ritchie = lib.nixosSystem {
           system = "x86_64-linux";
           modules = [
-            ./hosts/ritchie
+            ./hosts/ritchie/configuration.nix
           ];
           specialArgs = {
             inherit inputs self;

@@ -1,6 +1,4 @@
 {
-  nixpkgs.config.allowUnfree = true;
-
   nix = {
     settings = {
       experimental-features = [
@@ -9,11 +7,9 @@
       ];
       auto-optimise-store = true;
     };
-    gc = {
-      automatic = true;
-      dates = "weekly";
-    };
   };
+
+  nixpkgs.config.allowUnfree = true;
 
   system.stateVersion = "25.05";
 }

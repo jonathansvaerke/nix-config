@@ -10,7 +10,7 @@
   ];
 
   sops = {
-    defaultSopsFile = ../../../secrets.yaml;
+    defaultSopsFile = ../../../modules/nixos/sops-nix/secrets.yaml;
     defaultSopsFormat = "yaml";
     validateSopsFiles = true;
     age = {

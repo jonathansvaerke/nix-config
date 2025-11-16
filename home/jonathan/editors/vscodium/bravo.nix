@@ -17,6 +17,11 @@
     vscode-icons-team.vscode-icons
   ];
   userSettings = {
+    "python.languageServer" = "Pylance";
+    "python.analysis.languageServerMode" = "full";
+
+    "ruff.format.args" = [ "--config=format.quote-style='single'" ];
+
     "editor.acceptSuggestionOnCommitCharacter" = false;
     "editor.acceptSuggestionOnEnter" = "on";
     "editor.accessibilitySupport" = "off";
@@ -32,11 +37,6 @@
     "editor.wordWrap" = "off";
 
     "explorer.confirmDelete" = false;
-
-    "python.languageServer" = "Pylance";
-    "python.analysis.languageServerMode" = "full";
-
-    "ruff.format.args" = [ "--config=format.quote-style='single'" ];
 
     "vsicons.dontShowNewVersionMessage" = true;
 

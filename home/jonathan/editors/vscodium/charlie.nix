@@ -8,21 +8,6 @@
     vscode-icons-team.vscode-icons
   ];
   userSettings = {
-    "editor.acceptSuggestionOnCommitCharacter" = false;
-    "editor.acceptSuggestionOnEnter" = "on";
-    "editor.accessibilitySupport" = "off";
-    "editor.autoClosingBrackets" = "always";
-    "editor.autoClosingQuotes" = "always";
-    "editor.autoIndent" = "full";
-    "editor.bracketPairColorization.enabled" = true;
-    "editor.fontSize" = 16;
-    "editor.formatOnSave" = true;
-    "editor.suggestOnTriggerCharacters" = true;
-    "editor.tabSize" = 2;
-    "editor.wordWrap" = "off";
-
-    "explorer.confirmDelete" = false;
-
     "latex-workshop.bind.enter.key" = false;
     "latex-workshop.formatting.latex" = "latexindent";
     "latex-workshop.hover.citation.enable" = true;
@@ -132,6 +117,21 @@
     "latex-workshop.message..warning.show" = false;
     "latex-workshop.view.pdf.dark.backgroundColor" = "#1e1e1e";
     "latex-workshop.view.pdf.zoom" = "page-fit";
+
+    "editor.acceptSuggestionOnCommitCharacter" = false;
+    "editor.acceptSuggestionOnEnter" = "on";
+    "editor.accessibilitySupport" = "off";
+    "editor.autoClosingBrackets" = "always";
+    "editor.autoClosingQuotes" = "always";
+    "editor.autoIndent" = "full";
+    "editor.bracketPairColorization.enabled" = true;
+    "editor.fontSize" = 16;
+    "editor.formatOnSave" = true;
+    "editor.suggestOnTriggerCharacters" = true;
+    "editor.tabSize" = 2;
+    "editor.wordWrap" = "off";
+
+    "explorer.confirmDelete" = false;
 
     "vsicons.dontShowNewVersionMessage" = true;
 

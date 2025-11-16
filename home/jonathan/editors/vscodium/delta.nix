@@ -8,6 +8,19 @@
     vscode-icons-team.vscode-icons
   ];
   userSettings = {
+
+    "nix.enableLanguageServer" = true;
+    "nix.serverPath" = "nixd";
+    "nix.serverSettings" = {
+      "nixd" = {
+        "formatting" = {
+          "command" = [ "nixfmt" ];
+        };
+      };
+    };
+
+    "redhat.telemetry.enabled" = false;
+
     "editor.acceptSuggestionOnCommitCharacter" = false;
     "editor.acceptSuggestionOnEnter" = "on";
     "editor.accessibilitySupport" = "off";
@@ -22,18 +35,6 @@
     "editor.wordWrap" = "off";
 
     "explorer.confirmDelete" = false;
-
-    "nix.enableLanguageServer" = true;
-    "nix.serverPath" = "nixd";
-    "nix.serverSettings" = {
-      "nixd" = {
-        "formatting" = {
-          "command" = [ "nixfmt" ];
-        };
-      };
-    };
-
-    "redhat.telemetry.enabled" = false;
 
     "vsicons.dontShowNewVersionMessage" = true;
 

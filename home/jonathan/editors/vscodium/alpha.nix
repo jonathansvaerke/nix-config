@@ -7,6 +7,8 @@
     vscode-icons-team.vscode-icons
   ];
   userSettings = {
+    "zig.zls.enabled" = true;
+
     "editor.acceptSuggestionOnCommitCharacter" = false;
     "editor.acceptSuggestionOnEnter" = "on";
     "editor.accessibilitySupport" = "off";
@@ -30,6 +32,5 @@
     "workbench.sideBar.location" = "right";
     "workbench.startupEditor" = "none";
     "workbench.statusBar.visible" = true;
-    "zig.zls.enabled" = true;
   };
 }
