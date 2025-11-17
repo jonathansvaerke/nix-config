@@ -19,11 +19,11 @@
     ../common/optional/etc/language.nix
     ../common/optional/tools/git.nix
 
+    ../../modules/nixos/winboat.nix
+
     # Choose which users should be created on the system.
     ../common/users/jonathan/user.nix
     ../common/users/root/user.nix
-
-    ../../modules/nixos/winboat.nix
   ];
 
   networking = {
