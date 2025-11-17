@@ -26,9 +26,8 @@
     ../common/users/root/user.nix
   ];
 
-  networking = {
-    hostName = "turing";
-  };
+  networking.hostName = "turing";
+
   hardware.nvidia = {
     open = true;
     prime.offload.enable = false;

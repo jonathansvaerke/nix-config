@@ -23,9 +23,7 @@
     ../common/users/root/user.nix
   ];
 
-  networking = {
-    hostName = "ritchie";
-  };
+  networking.hostName = "ritchie";
 
   swapDevices = [
     {
