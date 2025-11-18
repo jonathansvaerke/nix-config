@@ -5,7 +5,7 @@
     package = pkgs.helix;
 
     settings = {
-      theme = "tokyonight";
+      theme = "autumn";
 
       editor = {
         line-number = "relative";
