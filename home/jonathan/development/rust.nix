@@ -1,7 +1,7 @@
 { pkgs, ... }:
 {
-  environment.systemPackages = with pkgs; [
-    rust-analyze # LSP
+  home.packages = with pkgs; [
+    rust-analyzer # LSP
     rustfmt # Formatter
     clippy # Linter
   ];

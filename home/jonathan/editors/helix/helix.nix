@@ -3,9 +3,10 @@
   programs.helix = {
     enable = true;
     package = pkgs.helix;
-    theme = "tokyonight";
 
     settings = {
+      theme = "tokyonight";
+
       editor = {
         line-number = "relative";
         mouse = true;
