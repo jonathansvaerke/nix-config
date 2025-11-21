@@ -66,6 +66,13 @@
               command = "${pkgs.nixfmt-rfc-style}/bin/nixfmt";
             };
           }
+          {
+            name = "python";
+            auto-format = true;
+            formatter = {
+              command = "${pkgs.black}/bin/black";
+            };
+          }
         ];
 
         language-server = {
@@ -80,6 +87,10 @@
 
           nixd = {
             command = "${pkgs.nixd}/bin/nixd";
+          };
+
+          pylsp = {
+            command = "${pkgs.python313Packages.python-lsp-server}/bin/pylsp";
           };
         };
       };
