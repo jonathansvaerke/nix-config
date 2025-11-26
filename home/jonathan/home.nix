@@ -1,9 +1,6 @@
 { config, pkgs, ... }:
 {
   imports = [
-    ./development/nix.nix
-    ./development/rust.nix
-
     ./editors/helix/helix.nix
     ./editors/nvim/nvim.nix
     ./editors/vscodium/vscodium.nix
