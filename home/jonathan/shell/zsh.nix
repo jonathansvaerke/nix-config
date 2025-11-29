@@ -9,6 +9,7 @@
     };
     shellAliases = {
       clr = "clear";
+      ncg = "sudo nix-collect-garbage -d";
       sdn = "shutdown now";
     };
   };
