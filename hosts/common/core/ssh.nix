@@ -1,5 +1,6 @@
+{ lib, ... }:
 {
-  services.openssh = {
+  services.openssh = lib.mkDefault {
     enable = true;
     settings = {
       PasswordAuthentication = false;

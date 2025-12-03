@@ -1,5 +1,6 @@
+{ lib, ... }:
 {
-  services.keyd = {
+  services.keyd = lib.mkDefault {
     enable = true;
     keyboards = {
       default = {

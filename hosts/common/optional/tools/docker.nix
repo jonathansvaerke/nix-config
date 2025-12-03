@@ -1,1 +1,4 @@
-{ virtualisation.docker.enable = true; }
+{ lib, ... }:
+{
+  virtualisation.docker.enable = lib.mkDefault true;
+}

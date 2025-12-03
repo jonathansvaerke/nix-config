@@ -1,15 +1,15 @@
-{ config, lib, ... }:
+{ lib, ... }:
 {
-  networking = {
-    networkmanager.enable = lib.mkDefault true;
-    useDHCP = lib.mkDefault true;
-    enableIPv6 = lib.mkDefault true;
-    firewall.enable = lib.mkDefault true;
+  networking = lib.mkDefault {
+    networkmanager.enable = true;
+    useDHCP = true;
+    enableIPv6 = true;
+    firewall.enable = true;
   };
 
-  hardware.bluetooth = {
-    enable = lib.mkDefault true;
-    powerOnBoot = lib.mkIf (config.hardware.bluetooth.enable) true;
+  hardware.bluetooth = lib.mkDefault {
+    enable = true;
+    powerOnBoot = true;
   };
 
   services.printing.enable = lib.mkDefault true;

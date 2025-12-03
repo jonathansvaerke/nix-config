@@ -1,3 +1,4 @@
+{ lib, ... }:
 {
-  programs.zsh.enable = true;
+  programs.zsh.enable = lib.mkDefault true;
 }

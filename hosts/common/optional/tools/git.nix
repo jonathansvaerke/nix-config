@@ -1,1 +1,4 @@
-{ programs.git.enable = true; }
+{ lib, ... }:
+{
+  programs.git.enable = lib.mkDefault true;
+}

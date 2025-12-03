@@ -1,6 +1,7 @@
+{ lib, ... }:
 {
-  services.xserver.enable = true;
-  services.xserver.desktopManager.gnome.enable = true;
+  services.xserver.enable = lib.mkDefault true;
+  services.xserver.desktopManager.gnome.enable = lib.mkDefault true;
 
   services.gnome = {
     core-apps.enable = false;

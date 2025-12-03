@@ -1,1 +1,7 @@
-{ programs.neovim.enable = true; }
+{ lib, ... }:
+{
+  programs.neovim = lib.mkDefault {
+    enable = true;
+    defaultEditor = true;
+  };
+}

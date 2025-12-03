@@ -1,4 +1,9 @@
-{ inputs, pkgs, ... }:
+{
+  inputs,
+  lib,
+  pkgs,
+  ...
+}:
 {
   imports = [ inputs.sops-nix.nixosModules.sops ];
 
@@ -7,7 +12,7 @@
     sops
   ];
 
-  sops = {
+  sops = lib.mkDefault {
     defaultSopsFile = ../../../modules/nixos/sops-nix/secrets.yaml;
     defaultSopsFormat = "yaml";
     validateSopsFiles = true;

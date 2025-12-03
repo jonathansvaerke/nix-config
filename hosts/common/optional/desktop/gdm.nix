@@ -1,6 +1,7 @@
+{ lib, ... }:
 {
-  services.xserver.enable = true;
-  services.xserver.displayManager.gdm = {
+  services.xserver.enable = lib.mkDefault true;
+  services.xserver.displayManager.gdm = lib.mkDefault {
     enable = true;
     settings = { };
   };

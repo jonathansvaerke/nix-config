@@ -1,6 +1,7 @@
+{ lib, ... }:
 {
-  time.timeZone = "Europe/Copenhagen";
-  i18n = {
+  time.timeZone = lib.mkDefault "Europe/Copenhagen";
+  i18n = lib.mkDefault {
     defaultLocale = "en_US.UTF-8";
     extraLocaleSettings = {
       LC_ADDRESS = "en_US.UTF-8";
