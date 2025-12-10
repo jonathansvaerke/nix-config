@@ -22,10 +22,10 @@
     nautilus
 
     # LibreOffice:
-    #libreoffice-qt
-    #hunspell
-    #hunspellDicts.en_US
-    #hunspellDicts.da_DK
+    libreoffice-qt
+    hunspell
+    hunspellDicts.en_US
+    hunspellDicts.da_DK
 
     vlc
     zotero
