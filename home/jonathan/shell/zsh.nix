@@ -10,6 +10,7 @@
     shellAliases = {
       clr = "clear";
       ncg = "sudo nix-collect-garbage -d";
+      po = "poweroff";
       sdn = "shutdown now";
     };
   };
