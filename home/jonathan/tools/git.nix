@@ -3,7 +3,7 @@
   programs.git = {
     enable = true;
     settings = {
-      aliases = {
+      alias = {
         br = "branch";
         del = "branch -D";
         c = "commit";
