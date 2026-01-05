@@ -145,7 +145,7 @@
 
     # Typst
     tinymist
-    typst-fmt
+    typstyle
     typst-live
 
     # Zig

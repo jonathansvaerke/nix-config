@@ -2,17 +2,19 @@
 {
   programs.git = {
     enable = true;
-    aliases = {
-      br = "branch";
-      del = "branch -D";
-      c = "commit";
-      cm = "commit -m";
-      co = "checkout";
-      l = "log";
-      s = "status";
-      sw = "switch";
+    settings = {
+      aliases = {
+        br = "branch";
+        del = "branch -D";
+        c = "commit";
+        cm = "commit -m";
+        co = "checkout";
+        l = "log";
+        s = "status";
+        sw = "switch";
 
-      save = "!git add -A && git commit -m 'Quick save' && git push";
+        save = "!git add -A && git commit -m 'Quick save' && git push";
+      };
     };
     includes = [ { path = config.sops.templates."git-secrets".path; } ];
   };

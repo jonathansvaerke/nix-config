@@ -19,6 +19,7 @@
     ../../optional/development/zig.nix
 
     ../../optional/editors/helix.nix
+    ../../optional/etc/steam.nix
     ../../optional/tools/direnv.nix
     ../../optional/tools/docker.nix
     ../../optional/tools/git.nix
