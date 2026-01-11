@@ -15,6 +15,7 @@
     ../common/optional/etc/audio.nix
     ../common/optional/etc/fonts.nix
     ../common/optional/etc/language.nix
+    ../common/optional/etc/lanzaboote.nix
     ../common/optional/tools/git.nix
 
     ../../modules/nixos/eduroam.nix # Create a certificate for Eduroam
