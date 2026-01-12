@@ -28,6 +28,7 @@
     hunspellDicts.da_DK
 
     vlc
+    whatsapp-electron
     zotero
 
     # Tools
