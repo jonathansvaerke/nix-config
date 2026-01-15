@@ -83,6 +83,9 @@
             command = "rustfmt";
           };
           language-servers = [ "rust-analyzer" ];
+          debugger = {
+            name = "codelldb";
+          };
         }
         {
           name = "typst";
@@ -127,6 +130,8 @@
 
     # Rust
     rust-analyzer
+    lldb
+    vscode-extensions.vadimcn.vscode-lldb
     rustfmt
     clippy
 
