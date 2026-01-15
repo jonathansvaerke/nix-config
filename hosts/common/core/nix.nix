@@ -1,12 +1,12 @@
 { lib, ... }:
 {
-  nix = lib.mkDefault {
+  nix = {
     settings = {
       experimental-features = [
         "nix-command"
         "flakes"
       ];
-      auto-optimise-store = true;
+      auto-optimise-store = lib.mkDefault true;
     };
   };
 
