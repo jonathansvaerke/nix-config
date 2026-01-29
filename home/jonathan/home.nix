@@ -16,6 +16,7 @@
   home.packages = with pkgs; [
     # Apps
     #bitwarden-desktop
+    boxflat
     discord
     firefox
     #geogebra6
