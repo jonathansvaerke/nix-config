@@ -33,6 +33,7 @@
 
     # Tools
     fastfetch
+    steam-run
     tree
     unzip
   ];
