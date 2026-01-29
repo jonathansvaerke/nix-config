@@ -10,7 +10,6 @@
             leftalt = "layer(leftalt)";
             rightalt = "layer(rightalt)";
 
-            esc = "capslock";
             capslock = "overload(control,esc)";
 
             #shift = "layer(shift)";
@@ -48,9 +47,10 @@
             #n = "k";
             #m = "h";
           };
-          #shift = {
-          #p = ":";
-          #;
+          shift = {
+            #p = ":";
+            capslock = "capslock";
+          };
           "rightalt:G" = {
             # If any of the mapped keys for this layer are pressed use rightalt, the key and output the correct value, but else just use the key pressed and the layer G (which is just rightalt).
             j = "left";
