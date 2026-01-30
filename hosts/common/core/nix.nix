@@ -10,7 +10,7 @@
     };
   };
 
-  nixpkgs.config.allowUnfree = lib.mkDefault true;
+  nixpkgs.config.allowUnfree = true;
 
   system.stateVersion = lib.mkDefault "25.11";
 }
