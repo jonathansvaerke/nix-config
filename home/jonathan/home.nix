@@ -32,7 +32,7 @@
     zotero
 
     # Tools
-    djvu2pdf
+    djvulibre
     fastfetch
     steam-run
     tree
