@@ -16,7 +16,6 @@
   home.packages = with pkgs; [
     # Apps
     #bitwarden-desktop
-    boxflat
     discord
     firefox
     #geogebra6
@@ -33,6 +32,7 @@
     zotero
 
     # Tools
+    djvu2pdf
     fastfetch
     steam-run
     tree
