@@ -83,9 +83,6 @@
             command = "rustfmt";
           };
           language-servers = [ "rust-analyzer" ];
-          debugger = {
-            name = "codelldb";
-          };
         }
         {
           name = "typst";
