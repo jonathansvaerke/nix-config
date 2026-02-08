@@ -37,6 +37,7 @@
     steam-run
     tree
     unzip
+    wine
   ];
 
   programs.home-manager.enable = true;
