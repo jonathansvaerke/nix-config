@@ -49,7 +49,7 @@
           };
           shift = {
             #p = ":";
-            capslock = "capslock";
+            esc = "capslock";
           };
           "rightalt:G" = {
             # If any of the mapped keys for this layer are pressed use rightalt, the key and output the correct value, but else just use the key pressed and the layer G (which is just rightalt).
