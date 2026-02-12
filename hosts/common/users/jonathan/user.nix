@@ -21,6 +21,7 @@
     ../../optional/editors/helix.nix
     ../../optional/etc/steam.nix
     ../../optional/tools/direnv.nix
+    ../../optional/tools/distrobox.nix
     ../../optional/tools/docker.nix
     ../../optional/tools/git.nix
     ../../optional/tools/keyd.nix
@@ -36,6 +37,7 @@
     extraGroups = [
       "docker"
       "networkmanager"
+      "podman"
       "wheel"
     ];
   };
