@@ -20,8 +20,6 @@
 
     # Rust
     rust-analyzer
-    lldb
-    vscode-extensions.vadimcn.vscode-lldb
     rustfmt
     clippy
 
