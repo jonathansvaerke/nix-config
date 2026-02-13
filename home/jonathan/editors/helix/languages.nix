@@ -2,14 +2,15 @@
   language = [
     {
       name = "nix";
+
       auto-format = true;
       formatter = {
         command = "nixfmt";
       };
-      language-servers = [ "nixd" ];
     }
     {
       name = "python";
+      language-servers = [ "pylsp" ];
       auto-format = true;
       formatter = {
         command = "black";
@@ -18,20 +19,22 @@
           "-"
         ];
       };
-      language-servers = [ "pylsp" ];
     }
     {
       name = "rust";
+      language-servers = [ "rust-analyzer" ];
       auto-format = true;
       formatter = {
         command = "rustfmt";
       };
-      language-servers = [ "rust-analyzer" ];
     }
     {
       name = "typst";
-      auto-format = true;
       language-servers = [ "typst-lsp" ];
+      auto-format = true;
+      formatter = {
+        command = "typstyle";
+      };
     }
   ];
 
