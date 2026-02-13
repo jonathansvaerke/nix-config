@@ -51,6 +51,9 @@
         check = {
           command = "clippy";
         };
+        diagnostics = {
+          unlinked-file = true;
+        };
         rustfmt = {
           enable = true;
         };
