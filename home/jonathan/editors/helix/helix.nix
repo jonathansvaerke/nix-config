@@ -4,8 +4,7 @@
     enable = true;
     package = pkgs.helix;
 
-    settings = import ./settings.nix;
-
+    settings = import ./config.nix;
     languages = import ./languages.nix;
   };
 
