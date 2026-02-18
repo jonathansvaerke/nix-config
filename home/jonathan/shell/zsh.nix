@@ -12,6 +12,8 @@
       ncg = "sudo nix-collect-garbage -d";
       po = "poweroff";
       sdn = "shutdown now";
+
+      pico8 = "steam-run /home/jonathan/Desktop/pico-8/pico8";
     };
   };
 }
