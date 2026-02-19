@@ -1,8 +1,20 @@
 {
   language = [
     {
+      name = "lua";
+      file-types = [
+        "lua"
+        "p8"
+      ];
+      language-servers = [ "lua-language-server" ];
+      auto-format = true;
+      formatter = {
+        command = "stylua";
+      };
+    }
+    {
       name = "nix";
-
+      language-servers = [ "nixd" ];
       auto-format = true;
       formatter = {
         command = "nixfmt";
@@ -39,6 +51,9 @@
   ];
 
   language-server = {
+    lua-language-server = {
+      command = "lua-language-server";
+    };
     nixd = {
       command = "nixd";
     };

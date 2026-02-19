@@ -9,6 +9,9 @@
   };
 
   home.packages = with pkgs; [
+    lua-language-server
+    stylua
+
     # Nix
     nixd
     nixfmt-rfc-style
