@@ -22,14 +22,10 @@
     }
     {
       name = "python";
-      language-servers = [ "pylsp" ];
+      language-servers = [ "pyright" ];
       auto-format = true;
       formatter = {
         command = "black";
-        args = [
-          "--quiet"
-          "-"
-        ];
       };
     }
     {

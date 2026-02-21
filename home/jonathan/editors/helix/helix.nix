@@ -17,7 +17,7 @@
     nixfmt-rfc-style
 
     # Python
-    python313Packages.python-lsp-server
+    pyright
     black
 
     # Rust
