@@ -1,5 +1,5 @@
 {
-  theme = "autumn";
+  theme = "jetbrains_dark";
   editor = {
     # Line and cursor settings
     line-number = "relative";
