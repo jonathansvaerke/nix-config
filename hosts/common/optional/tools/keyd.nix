@@ -10,6 +10,7 @@
             leftalt = "layer(leftalt)";
             rightalt = "layer(rightalt)";
 
+            tab = "overload(nav,tab)";
             capslock = "overload(control,esc)";
 
             #shift = "layer(shift)";
@@ -51,12 +52,18 @@
             #p = ":";
             esc = "capslock";
           };
-          "rightalt:G" = {
-            # If any of the mapped keys for this layer are pressed use rightalt, the key and output the correct value, but else just use the key pressed and the layer G (which is just rightalt).
-            j = "left";
-            k = "down";
-            l = "up";
-            ";" = "right";
+          #"rightalt:G" = {
+          # If any of the mapped keys for this layer are pressed use rightalt, the key and output the correct value, but else just use the key pressed and the layer G (which is just rightalt).
+          #j = "left";
+          #k = "down";
+          #l = "up";
+          #";" = "right";
+          #};
+          nav = {
+            n = "up";
+            y = "down";
+            u = "right";
+            m = "left";
           };
         };
       };
