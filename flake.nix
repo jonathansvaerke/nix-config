@@ -56,11 +56,22 @@
           };
         };
 
-        # Acer Aspire 3 15 A315-24P-R7VH
+        # Acer Aspire 3 15 A315-24P-R7VH (AMD Ryzen 3 7320U, 8 GB RAM)
         ritchie = lib.nixosSystem {
           system = "x86_64-linux";
           modules = [
             ./hosts/ritchie/configuration.nix
+          ];
+          specialArgs = {
+            inherit inputs self;
+          };
+        };
+
+        # Lenovo S500
+        shannon = lib.nixosSystem {
+          system = "x86_64-linux";
+          modules = [
+            ./hosts/shannon/configuration.nix
           ];
           specialArgs = {
             inherit inputs self;

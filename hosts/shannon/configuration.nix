@@ -1,4 +1,3 @@
-{ inputs, ... }:
 {
 
   imports = [
@@ -16,8 +15,6 @@
     ../common/optional/tools/git.nix
 
     # Choose which users should be created on the system.
-    ../common/users/jonathan/user.nix
-    ../common/users/root/user.nix
   ];
 
   networking.hostName = "shannon";
