@@ -3,6 +3,7 @@
   programs.helix = {
     enable = true;
     package = pkgs.helix;
+    defaultEditor = true;
 
     settings = import ./config.nix;
     languages = import ./languages.nix;
