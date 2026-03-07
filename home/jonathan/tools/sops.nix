@@ -3,7 +3,7 @@
   imports = [ inputs.sops-nix.homeManagerModules.sops ];
 
   sops = {
-    defaultSopsFile = ../../../../modules/nixos/sops-nix/secrets.yaml;
+    defaultSopsFile = ../../../modules/nixos/sops-nix/secrets.yaml;
     defaultSopsFormat = "yaml";
     validateSopsFiles = true;
     age = {

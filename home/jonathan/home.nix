@@ -10,7 +10,7 @@
 
     ./tools/git.nix
     ./tools/rclone.nix
-    ./tools/sops-nix/sops.nix
+    ./tools/sops.nix
     ./tools/yazi.nix
   ];
 

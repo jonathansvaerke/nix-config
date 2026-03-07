@@ -19,6 +19,9 @@
       newline = "none";
     };
     # IDE
+    file-picker = {
+      hidden = false;
+    };
     color-modes = true;
     cursorline = true;
     # LSP
