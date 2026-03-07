@@ -2,7 +2,7 @@
 {
   imports = [
     ./editors/helix/helix.nix
-    ./editors/nvim/nvim.nix
+    #./editors/nvim/nvim.nix
     ./editors/vscodium/vscodium.nix
 
     ./shell/ghostty.nix
