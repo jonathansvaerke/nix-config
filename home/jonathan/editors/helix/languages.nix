@@ -26,6 +26,10 @@
       auto-format = true;
       formatter = {
         command = "black";
+        args = [
+          "--quiet"
+          "-"
+        ];
       };
     }
     {
