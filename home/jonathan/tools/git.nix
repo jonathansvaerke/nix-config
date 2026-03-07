@@ -13,6 +13,7 @@
         s = "status";
         sw = "switch";
 
+        acp = "!f() { git add -A && git commit -m \"$*\" && git push; }; f";
         save = "!git add -A && git commit -m 'Quick save' && git push";
       };
     };
