@@ -11,6 +11,7 @@
     ./tools/git.nix
     ./tools/rclone.nix
     ./tools/sops-nix/sops.nix
+    ./tools/yazi.nix
   ];
 
   home.packages = with pkgs; [
