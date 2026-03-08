@@ -15,13 +15,15 @@
 
     shellAliases = {
       p = "pwd";
-      pl = " pwd && ls";
+      pl = "pwd && ls";
       clr = "clear";
 
       po = "poweroff";
       sdn = "shutdown now";
 
       ncg = "sudo nix-collect-garbage -d";
+      conf = "hx /home/jonathan/nix-config/";
+      nixup = "sudo nixos-rebuild switch --flake /home/jonathan/nix-config#$(hostname)";
       pico8 = "steam-run /home/jonathan/Desktop/pico-8/pico8";
     };
   };
