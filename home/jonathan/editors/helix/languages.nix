@@ -42,7 +42,7 @@
     }
     {
       name = "typst";
-      language-servers = [ "typst-lsp" ];
+      language-servers = [ "tinymist" ];
       auto-format = true;
       formatter = {
         command = "typstyle";
@@ -74,8 +74,8 @@
         };
       };
     };
-    typst-lsp = {
-      command = "typst-lsp";
+    tinymist = {
+      command = "tinymist";
     };
   };
 }
