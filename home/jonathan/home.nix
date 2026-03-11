@@ -36,6 +36,7 @@
     djvulibre
     fastfetch
     steam-run
+    sqlite
     tree
     unzip
     wine
