@@ -21,6 +21,7 @@
     firefox
     #geogebra6
     nautilus
+    signal-desktop
 
     # LibreOffice:
     libreoffice-qt
