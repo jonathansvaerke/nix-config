@@ -12,5 +12,7 @@
 
   nixpkgs.config.allowUnfree = true;
 
+  users.mutableUsers = lib.mkDefault false;
+
   system.stateVersion = lib.mkDefault "25.11";
 }

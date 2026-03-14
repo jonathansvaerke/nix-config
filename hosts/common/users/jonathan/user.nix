@@ -28,7 +28,6 @@
     ../../optional/tools/keyd.nix
   ];
 
-  users.mutableUsers = false;
   users.users.jonathan = {
     isNormalUser = true;
     description = "Jonathan Svaerke";
