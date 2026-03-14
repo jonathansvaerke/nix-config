@@ -9,7 +9,7 @@
     ./shell/zsh.nix
 
     ./tools/git.nix
-    ./tools/rclone.nix
+    #./tools/rclone.nix
     ./tools/sops.nix
     ./tools/yazi.nix
   ];

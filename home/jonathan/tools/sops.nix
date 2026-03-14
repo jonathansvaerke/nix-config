@@ -9,9 +9,5 @@
     age = {
       keyFile = "/home/jonathan/.config/sops/age/keys.txt";
     };
-    secrets = {
-      "git/userName" = { };
-      "git/userEmail" = { };
-    };
   };
 }

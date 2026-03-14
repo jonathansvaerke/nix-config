@@ -33,6 +33,11 @@
     '';
   };
 
+  sops.secrets = {
+    "at/username" = { };
+    "at/password" = { };
+  };
+
   environment.etc."NetworkManager/system-connections/eduroam.nmconnection" = {
     source = config.sops.templates."eduroam-certificate".path;
     mode = "0600";

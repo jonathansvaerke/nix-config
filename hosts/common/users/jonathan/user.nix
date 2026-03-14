@@ -8,7 +8,7 @@
 
   imports = [
     inputs.home-manager.nixosModules.home-manager
-    ../../optional/etc/home-manager.nix
+    #inputs.sops-nix.nixosModules.sops
 
     ../../optional/desktop/gnome.nix
 
@@ -19,6 +19,7 @@
     ../../optional/development/zig.nix
 
     ../../optional/editors/helix.nix
+    ../../optional/etc/home-manager.nix
     ../../optional/etc/steam.nix
     ../../optional/tools/direnv.nix
     ../../optional/tools/distrobox.nix
@@ -40,6 +41,12 @@
       "podman"
       "wheel"
     ];
+  };
+
+  sops.secrets = {
+    "jonathan-password" = {
+      neededForUsers = true;
+    };
   };
 
   home-manager.users.jonathan = import ../../../../home/jonathan/home.nix;

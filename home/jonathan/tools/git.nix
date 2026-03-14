@@ -27,4 +27,9 @@
         email = ${config.sops.placeholder."git/userEmail"}
     '';
   };
+
+  sops.secrets = {
+    "git/userName" = { };
+    "git/userEmail" = { };
+  };
 }
