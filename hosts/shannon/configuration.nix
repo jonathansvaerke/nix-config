@@ -11,6 +11,7 @@
     ../common/core/ssh.nix
 
     # What modules does the host want?
+    ../common/optional/desktop/gdm.nix
     ../common/optional/desktop/gnome.nix
     ../common/optional/etc/language.nix
     ../common/optional/tools/git.nix
