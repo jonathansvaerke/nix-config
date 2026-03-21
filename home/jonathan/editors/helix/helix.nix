@@ -10,6 +10,10 @@
   };
 
   home.packages = with pkgs; [
+    # C
+    clang-tools
+
+    # Lua
     lua-language-server
     stylua
 

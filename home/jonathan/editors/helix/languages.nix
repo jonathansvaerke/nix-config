@@ -1,6 +1,14 @@
 {
   language = [
     {
+      name = "c";
+      language-servers = [ "clangd" ];
+      auto-format = true;
+      formatter = {
+        command = "clangd";
+      };
+    }
+    {
       name = "lua";
       file-types = [
         "lua"
