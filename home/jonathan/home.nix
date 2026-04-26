@@ -20,6 +20,7 @@
     discord
     firefox
     #geogebra6
+    librewolf
     nautilus
     signal-desktop
 
