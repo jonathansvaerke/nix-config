@@ -25,6 +25,7 @@
       conf = "hx /home/jonathan/nix-config/";
       nixup = "sudo nixos-rebuild switch --flake /home/jonathan/nix-config#$(hostname)";
       pico8 = "steam-run /home/jonathan/Desktop/pico-8/pico8";
+      ff = "fastfetch";
     };
   };
 }

@@ -20,7 +20,7 @@
     discord
     firefox
     #geogebra6
-    gimp
+    # gimp
     librewolf
     nautilus
     signal-desktop
