@@ -43,6 +43,7 @@
     tree
     unzip
     wine
+    poppler
   ];
 
   programs.home-manager.enable = true;
