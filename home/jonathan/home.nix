@@ -19,7 +19,7 @@
     #bitwarden-desktop
     discord
     firefox
-    #geogebra6
+    geogebra6
     # gimp
     librewolf
     nautilus
