@@ -1,7 +1,7 @@
 keys:
   - &users
     - &jonathan age16aplnryhd34d56fyyvz0p2qlrh74tlffug4ffzlrlau0wwd75ylsl7wcyj
-    - &jonathan-ritchie age1ts8ry6mkvg95zxhdryngf90fu0503x8xyaec7dl65rd3c8x0tcaszvxglv
+    - &jonathan-ritchie age1qhau5hn4p30ym97wfatleawzt83g9hwnu9c0eux93ug4pkwra3rsz5809m
 creation_rules:
   - path_regex: secrets.yaml$
     key_groups:

@@ -51,7 +51,7 @@
   home = {
     username = "jonathan";
     homeDirectory = "/home/${config.home.username}";
-    stateVersion = "25.11";
+    stateVersion = "26.05";
   };
 
   #xdg.userDirs = {
