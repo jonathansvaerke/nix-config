@@ -38,10 +38,12 @@
     # Tools
     djvulibre
     fastfetch
+    gparted
     steam-run
     sqlite
     tree
     unzip
+    ventoy
     wine
     poppler
   ];
