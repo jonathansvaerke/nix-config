@@ -9,14 +9,14 @@
     ./shell/zsh.nix
 
     ./tools/git.nix
-    #./tools/rclone.nix
+    # ./tools/rclone.nix
     ./tools/sops.nix
     ./tools/yazi.nix
   ];
 
   home.packages = with pkgs; [
     # Apps
-    #bitwarden-desktop
+    # bitwarden-desktop
     discord
     firefox
     geogebra6
@@ -43,7 +43,6 @@
     sqlite
     tree
     unzip
-    ventoy
     wine
     poppler
   ];
