@@ -1,10 +1,12 @@
 keys:
   - &users
-    - &jonathan age16aplnryhd34d56fyyvz0p2qlrh74tlffug4ffzlrlau0wwd75ylsl7wcyj
-    - &jonathan-ritchie age1qhau5hn4p30ym97wfatleawzt83g9hwnu9c0eux93ug4pkwra3rsz5809m
+    - &dev age16aplnryhd34d56fyyvz0p2qlrh74tlffug4ffzlrlau0wwd75ylsl7wcyj
+    - &jonathan-turing age197a4jfpk68eaul3caj63h5ndfgu6rquvpm3vxl40tu6jarjsxfnsd2djy6
+    - &jonathan-ritchie age1jsw04rg9sv8nzy0d6nymzmjyc5mgetqfpef9qvl2srhf4s2kxawsce4t77
 creation_rules:
   - path_regex: secrets.yaml$
     key_groups:
       - age:
-          - *jonathan
+          - *dev
+          - *jonathan-turing
           - *jonathan-ritchie

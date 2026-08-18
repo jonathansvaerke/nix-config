@@ -19,6 +19,7 @@
     # bitwarden-desktop
     discord
     firefox
+    fritzing
     geogebra6
     # gimp
     librewolf
