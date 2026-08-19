@@ -16,6 +16,7 @@
 
   home.packages = with pkgs; [
     # Apps
+    arduino-ide
     # bitwarden-desktop
     discord
     firefox

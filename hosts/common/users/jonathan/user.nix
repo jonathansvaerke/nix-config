@@ -35,6 +35,7 @@
     shell = pkgs.zsh;
     hashedPasswordFile = config.sops.secrets."jonathan-password".path;
     extraGroups = [
+      "dialout"
       "docker"
       "networkmanager"
       "podman"
