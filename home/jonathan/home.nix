@@ -9,7 +9,7 @@
     ./shell/zsh.nix
 
     ./tools/git.nix
-    # ./tools/rclone.nix
+    ./tools/rclone.nix
     ./tools/sops.nix
     ./tools/yazi.nix
   ];
@@ -23,6 +23,8 @@
     fritzing
     geogebra6
     # gimp
+    kdePackages.kdenlive
+    kicad
     librewolf
     nautilus
     signal-desktop
