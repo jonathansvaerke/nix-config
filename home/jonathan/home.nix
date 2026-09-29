@@ -20,13 +20,13 @@
     # bitwarden-desktop
     discord
     firefox
+    flowblade
     fritzing
     geogebra6
     # gimp
     kicad
     librewolf
     nautilus
-    openshot-qt
     signal-desktop
 
     # LibreOffice:
