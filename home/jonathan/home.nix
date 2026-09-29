@@ -26,6 +26,7 @@
     kicad
     librewolf
     nautilus
+    openshot-qt
     signal-desktop
 
     # LibreOffice:
