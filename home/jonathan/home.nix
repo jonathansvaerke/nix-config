@@ -23,7 +23,6 @@
     fritzing
     geogebra6
     # gimp
-    kdePackages.kdenlive
     kicad
     librewolf
     nautilus
